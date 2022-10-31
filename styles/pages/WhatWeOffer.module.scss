@@ -1,0 +1,22 @@
+.headingServices {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: #696969;
+
+    .heading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.41;
+        color: #333;
+        margin-bottom: 20px;
+
+        & span {
+            color: #21376D;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

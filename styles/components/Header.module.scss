@@ -1,0 +1,64 @@
+.headerSection {
+    background-color: transparent;
+
+    .headerInteriorSection {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 5px 20px 0px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 14%) !important;
+
+        h2 {
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.78;
+            font-style: normal;
+            font-weight: 600;
+            visibility: visible;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.78;
+            font-style: normal;
+            font-weight: 600;
+            visibility: visible;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+    }
+}
+
+.header {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(255 255 255 / 14%) !important;
+
+    &.black {
+        .HeaderLeft {
+            font-size: 14px;
+            color: #000;
+        }
+
+        .HeaderRight {
+            font-size: 14px;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    &.white {
+        .HeaderLeft {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .HeaderRight {
+            font-size: 14px;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+}

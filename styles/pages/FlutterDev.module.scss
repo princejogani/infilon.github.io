@@ -1,0 +1,132 @@
+.SectionHeadingContainer {
+    padding: 60px 20px;
+
+    .Headingwrapper {
+        text-align: center;
+
+        h1 {
+            font-size: 32px;
+            line-height: 1.41;
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: 700;
+
+            & span {
+                color: #21376d;
+            }
+        }
+    }
+
+    .ManagedIT {
+        border-left: 5px solid #1d5280;
+        margin-bottom: 40px;
+
+        p {
+            font-size: 16px;
+            line-height: 1.67;
+            color: #333;
+            font-weight: 700;
+
+            & span {
+                color: #21376d;
+            }
+        }
+    }
+
+    .Verticleline {
+        margin: 18px;
+        height: 100%;
+        float: left;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+        color: #696969;
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.74;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            visibility: visible;
+            color: #696969;
+        }
+    }
+
+
+}
+
+.AboutusWrapperSection {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+    background-image: url(https://www.infilon.com/assets/images/bg/mitech-slider-cybersecurity-global-image.png);
+    background-repeat: no-repeat;
+    background-position: center right 40px;
+    margin-bottom: 50px;
+
+    .LeftResourceBox {
+        max-width: 600px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        float: right;
+
+        h2{
+            font-size: 24px;
+            color: #333;
+            span{
+                color: #1d5280;
+            }
+        }
+        ul{
+            color: #696969;
+            padding-top: 30px ;
+            margin-bottom: 20px;
+            li{
+                padding-left: 14px;
+                margin-bottom: 12px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            text-align: center;
+            margin: 0 auto;
+            float: none;
+        }
+
+    }
+}
+
+.inftech{
+    padding: 60px 0;
+    .LeftResourceBox{
+        h2{
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+            span{
+                color: #1d5280;
+            }
+        }
+    }
+
+    .RightResourceBox{
+        max-width: 600px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        float: right;
+        ul{
+            color: #696969;
+            padding-top: 30px ;
+            margin-bottom: 20px;
+            li{
+                padding-left: 14px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+}

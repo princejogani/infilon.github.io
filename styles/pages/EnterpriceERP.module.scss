@@ -1,0 +1,59 @@
+.headingServices {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: #696969;
+
+    .heading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.41;
+        color: #333;
+        margin-bottom: 20px;
+
+        & span {
+            color: #21376D;
+        }
+    }
+
+    .subheading{
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.41;
+        color: #333;
+        margin-bottom: 20px;
+        & span {
+            color: #21376D;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    
+}
+
+.whatiserp{
+    padding: 40px 0;
+    background-color: #f8f8f8;
+    background-image: url(https://www.infilon.com/assets/images/bg/mitech-slider-cybersecurity-global-image.png);
+    background-repeat: no-repeat;
+    background-position: center right 40px;
+
+    h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+        span{
+            color: #21376D;
+        }
+    }
+
+    .text{
+        text-align: justify;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #696969;
+    }
+}

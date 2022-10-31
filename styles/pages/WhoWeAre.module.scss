@@ -1,0 +1,122 @@
+
+
+.cyberSecuritySection {
+    margin-top: 39px;
+    margin-bottom: 40px;
+
+    .cybersecurityAboutBox {
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            line-height: 1.00;
+            font-weight: 700;
+
+            span {
+                color: #21376D;
+            }
+        }
+
+        h4 {
+            font-size: 24px !important;
+            font-weight: bold;
+        }
+
+
+    }
+
+    .cybersecurityAboutText {
+        .description {
+            color: #696969;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+    }
+
+}
+
+
+.aboutResourcesWrapper {
+    background-color: #f8f8f8;
+    background-image: url('https://www.infilon.com/assets/images/bg/mitech-slider-cybersecurity-global-image.png');
+    background-repeat: no-repeat;
+    background-position: center right 40px;
+}
+
+.resourcesLeftBox {
+    max-width: 600px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    float: right;
+}
+
+
+.resourcesImages {
+    img {
+        width: 100%;
+    }
+}
+
+
+.formActions p {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+
+    .text-white {
+        color: #fff !important;
+    }
+
+    .text-color-secondary {
+        color: #16ADB6;
+    }
+
+}
+
+.formActions p.mt-25 {
+    font-size: 18px;
+}
+
+.sectionSpaceptb80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-inner input,
+.contact-inner textarea {
+    width: 100%;
+    color: #000;
+    border-color: #f8f8f8;
+    background-color: #f8f8f8;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    border: none;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #eee;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 5px;
+    padding: 3px 20px;
+    height: 56px;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .resourcesLeftBox {
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+    }
+
+}

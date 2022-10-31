@@ -1,0 +1,829 @@
+.home {
+
+    // .homePageBackgroundImage {
+    //     background: linear-gradient(45deg, #21376d 20%, #16ADB6) !important;
+    //     height: 100%;
+    //     padding: 280px 150px 250px 150px !important;
+    //     margin-bottom: 20px;
+    //     display: flex;
+    //     align-items: center;
+    //     flex-direction: column;
+    //     justify-content: center;
+
+    //     .agileDigitalHeading {
+    //         color: #fff;
+    //         font-size: 90px;
+    //         font-weight: 700;
+    //         margin-top: 0px;
+    //         text-align: center;
+    //         line-height: 1.2;
+    //         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    //     }
+
+    //     .hireButtonSectionContainer {
+    //         text-align: center;
+    //         margin-top: 35px;
+    //     }
+
+    //     .hireTeamBtn {
+    //         margin: 10px;
+    //         font-size: 14px;
+    //         font-weight: 500;
+    //         border-style: solid;
+    //         border-radius: 5px;
+    //         border-color: transparent;
+    //         padding-left: 15px;
+    //         padding-right: 15px;
+    //         text-align: center;
+    //         color: #fff;
+    //         background: #21376D;
+    //         border-width: 1px;
+    //         height: 54px;
+    //         width: 150px;
+    //         transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+    //         &:hover {
+    //             transform: translateY(-5px);
+
+
+    //         }
+
+    //     }
+
+    //     .getQuoteBtn {
+    //         margin: 10px;
+    //         font-size: 14px;
+    //         font-weight: 500;
+    //         border-style: solid;
+    //         border-radius: 5px;
+    //         border-color: transparent;
+    //         // padding: 0 36px;
+    //         text-align: center;
+    //         background-color: #fff;
+    //         color: #21376D;
+    //         border-width: 1px;
+    //         height: 54px;
+    //         width: 150px;
+    //         transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+    //         &:hover {
+    //             transform: translateY(-5px);
+    //             color: #fff;
+    //             background: #21376D;
+
+    //         }
+
+    //         .fontIconStyle {
+    //             padding-left: 3px;
+
+    //         }
+    //     }
+
+    // }
+
+    .homePageBackgroundImage {
+        background: linear-gradient(45deg, #21376d 20%, #16ADB6);
+
+        .homeContains {
+            height: 100%;
+            padding: 170px 41px 260px 24px !important;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+
+            .particlesContainer {
+                overflow: hidden;
+            }
+        }
+
+        // z-index: 4;
+        .agileDigitalHeading {
+            color: #fff;
+            font-size: 90px;
+            font-weight: 700;
+            margin-top: 0px;
+            text-align: center;
+            line-height: 1.2;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .hireButtonSectionContainer {
+            text-align: center;
+            margin-top: 35px;
+            z-index: 4;
+        }
+
+        .hireTeamBtn {
+            margin: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: transparent;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+            color: #fff;
+            background: #21376D;
+            border-width: 1px;
+            height: 54px;
+            width: 150px;
+            transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+            &:hover {
+                transform: translateY(-5px);
+
+
+            }
+
+        }
+
+        .getQuoteBtn {
+            margin: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: transparent;
+            // padding: 0 36px;
+            text-align: center;
+            background-color: #fff;
+            color: #21376D;
+            border-width: 1px;
+            height: 54px;
+            width: 150px;
+            transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+            &:hover {
+
+                transform: translateY(-5px);
+                color: #fff;
+                background: #21376D;
+
+
+            }
+
+            .fontIconStyle {
+                padding-left: 3px;
+
+            }
+        }
+
+
+    }
+
+
+    .clientsCarouselsection {
+        position: relative;
+        background-color: transparent !important;
+        z-index: 9;
+
+        .clientsCarousel {
+            user-select: none;
+            margin: -85px 20px 0 20px;
+
+            .row {
+                background-color: #fff !important;
+                padding: 20px;
+
+                p {
+                    text-align: center;
+                    font-size: 28px;
+                    color: #666;
+                    font-weight: 600;
+                    margin-top: 10px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .completeITServiceContainer {
+        background: #f8f8f8;
+        padding: 150px 20px 20px 20px;
+        margin-top: -75px;
+        position: relative;
+
+        h2 {
+            text-align: center;
+            color: #ababab;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            line-height: 1.43;
+            margin-top: -5px;
+        }
+
+        h3 {
+            margin-top: 30px;
+            font-size: 40px;
+            text-align: center;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.41;
+
+            span {
+                color: #21376d;
+            }
+        }
+
+        .completeITServiceHeadParaContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .completeITServicePara {
+            color: #ababab;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            line-height: 1.43;
+            margin-bottom: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+        }
+
+        .customSoftwareHeading {
+            color: #333;
+            font-family: CerebriSans;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.41;
+            font-size: 32px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+
+        }
+
+        .spanHighlighting {
+            color: #21376D;
+        }
+
+        .talktous {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.4;
+            color: #333;
+
+            span {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 100%;
+                    right: 0;
+                    width: 0%;
+                    background-color: #21376D;
+                    height: 1px;
+                    transition: .3s;
+                }
+
+                &:hover {
+                    &::after {
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+
+                a {
+                    color: #21376D;
+                    border-bottom: 1px solid #ccc;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+    .technologyWeWorkSection {
+        padding: 80px 30px 90px 30px;
+        background-color: #fff;
+        position: relative;
+
+
+        .technologyMagnificentHeading {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #333;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.41;
+            text-align: center;
+
+            span {
+                color: #21376D;
+            }
+
+            .nav-tabs .nav-link.active {
+                border: 0px solid transparent !important;
+            }
+
+        }
+
+        .tabContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 60px;
+            margin-bottom: 45px;
+            // margin-left: 54px;
+            // margin-right: 54px;
+
+            font-size: 18px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            span {
+                color: #696969;
+
+                border-color: none;
+                padding: 20px 25px 20px 25px;
+            }
+        }
+
+        .tabStyles {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    .hiringSection {
+        background: url('https://www.infilon.com/assets/images/bg/mitech-processing-contact-bg.png') top right no-repeat;
+        background-color: #21376D;
+        padding: 0 80px;
+        position: relative;
+
+        .hiringPart {
+            align-items: center;
+
+            h3 {
+                color: #fff;
+                font-weight: 600;
+                font-size: 40px;
+                position: relative;
+                padding-left: 34px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 4px;
+                    height: 100%;
+                    background-color: #16ADB6;
+                }
+            }
+
+            .subHeading {
+                margin-left: 34px;
+                margin-top: 15px;
+                font-size: 18px;
+                line-height: 1.74;
+                color: #fff;
+            }
+
+            .wearehiring {
+                img {
+                    width: 100%;
+                }
+
+                .applynow {
+                    padding: 30px 35px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h6 {
+                        // max-width: 350px;
+                        margin-right: 20px;
+                        width: 100%;
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 1.41;
+                    }
+
+                    a {
+                        max-width: 131px;
+                        width: 100%;
+                        text-decoration: none;
+                        background-color: #fff;
+                        color: #21376D;
+                        font-size: 14px;
+                        line-height: 48px;
+                        height: 48px;
+                        padding: 0 30px;
+                        border-radius: 5px;
+                        font-weight: 600;
+                        transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+                        &:hover {
+                            transform: translateY(-3px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .homeBlog {
+        background-image: url('https://infilon.com/assets/images/patterns/mitech-home-infotechno-case-study-section-bg.png');
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        padding: 100px 0;
+        position: relative;
+
+        .blog {
+            .heading {
+                h2 {
+                    letter-spacing: 3px;
+                    color: #ababab;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    line-height: 1.43;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                h4 {
+                    color: #333;
+                    font-size: 34px;
+                    text-align: center;
+                    font-weight: 700;
+                    line-height: 1.41;
+                }
+            }
+
+            .viewallblog {
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.4;
+                color: #333;
+                text-align: center;
+
+                a {
+                    color: #21376D;
+                    border-bottom: 1px solid #ccc;
+                    position: relative;
+                    text-decoration: none;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        top: 100%;
+                        right: 0;
+                        width: 0%;
+                        height: 1px;
+                        background-color: #21376D;
+                        transition: .3s;
+                    }
+
+                    &:hover {
+                        &::after {
+                            width: 100%;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carouselContainer {
+        background: #f8f8f8;
+        padding: 100px 20px 100px 20px;
+        position: relative;
+
+        .textContainer {
+            text-align: center;
+
+            h2 {
+                color: #ababab;
+                font-size: 14px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                line-height: 1.43;
+                margin-top: -5px;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                color: #333;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 1.75rem;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+                line-height: 1.2;
+
+                span {
+                    color: #21376D;
+                }
+            }
+        }
+
+        .carouselCardContainer {
+            position: relative;
+            background: #fff;
+            padding: 31px 20px 31px;
+            border-radius: 5px;
+            margin: 40px 35px 60px 20px;
+            box-shadow: 0 0 20px rgb(51 51 51 / 10%);
+            transition: all .7s cubic-bezier(.645, .045, .355, 1);
+
+            &:hover {
+                transform: translateY(-10px) !important;
+            }
+
+
+            .profileImageContainer {
+                img {
+                    width: 75px;
+                    border-radius: 50%;
+                }
+            }
+
+            p {
+                color: #333;
+                font-size: 1rem;
+                margin-top: 10px;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+
+            span {
+                font-size: 14px;
+                line-height: 1.74;
+                font-style: normal;
+                font-weight: 600;
+                color: #696969;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            .carouselInfo {
+                p {
+                    font-size: 16px;
+                    line-height: 1.74;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #696969;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.worksdoneContainer {
+    font-size: 18px;
+    padding: 36px 17px 36px 17px;
+    color: #696969;
+
+    .headingContainer {
+        color: #333333;
+        font-size: 39px !important;
+        text-align: center;
+        padding: 27px;
+
+        & span {
+            color: #21376D;
+        }
+    }
+
+    .Verticleline {
+        margin: 18px;
+        height: 100%;
+        float: left;
+    }
+
+    .servicesContent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Contentworksdone {
+        line-height: 1.67;
+        font-weight: 800;
+        color: #696969;
+        border-left: 5px solid #16ADB6;
+
+        & span {
+            color: #21376D;
+        }
+    }
+
+    .ourmoto {
+        margin-bottom: 20px;
+
+    }
+
+    .services {
+        margin-top: 12px;
+    }
+}
+
+.counter {
+    position: relative;
+    background-color: #fff;
+
+    .GridcounterExperience {
+        border: 1px solid #ededed;
+        border-right: none;
+
+        .gridItem {
+            background: white;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-right: 1px solid #ededed;
+
+            .ItemName {
+                color: #333;
+                font-weight: 500;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .ItemCount {
+                font-size: 64px;
+                font-weight: 600;
+                line-height: 1.41;
+                color: #21376D;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .home {
+        .homePageBackgroundImage {
+            margin-bottom: -100px;
+        }
+
+        .completeITServiceContainer {
+            margin-top: -113px;
+        }
+
+        .hiringSection {
+            padding: 35px 0;
+
+            .wearehiring {
+                padding: 35px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:321px) {
+    .technologyWeWorkSection {
+        padding: 0px !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+
+        .tabStyles {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+
+        .tabContainer {
+            span {
+                color: #696969;
+                padding: 30px 15px 30px 25px !important;
+                margin-bottom: 40px !important;
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:426px) {
+    .carouselContainer {
+        padding: 60px 15px 60px 15px;
+
+        .carouselCardContainer {
+            margin: 40px 10px 60px 10px !important;
+        }
+    }
+
+    .technologyWeWorkSection {
+        padding: 0px !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+
+        .tabStyles {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+
+        .tabContainer {
+            span {
+                color: #696969;
+                padding: 50px 15px 50px 15px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ourmoto {
+        margin-top: 40px;
+    }
+
+    .GridcounterExperience {
+        border-bottom: none;
+    }
+
+    .gridItem {
+        border-bottom: 1px solid #ededed;
+    }
+
+    .ItemCount {
+        font-size: 46px !important;
+        font-weight: 600;
+    }
+
+    .servicesContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .homePageBackgroundImage {
+        // padding: 60px 120px 130px 120px !important;
+        padding-left: 10px;
+
+        .agileDigitalHeading {
+            font-size: 40px !important;
+        }
+    }
+
+
+    .completeITServiceContainer {
+        background: #f8f8f8;
+        padding: 180px 25px 20px 25px;
+
+
+        .completeITServiceHeadParaContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .completeITServicePara {
+            color: #ababab;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            line-height: 1.43;
+            margin-bottom: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+        }
+
+        .customSoftwareHeading {
+            color: #333;
+            font-family: CerebriSans;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.41;
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+
+        }
+
+        .spanHighlighting {
+            color: #21376D;
+        }
+
+    }
+
+}

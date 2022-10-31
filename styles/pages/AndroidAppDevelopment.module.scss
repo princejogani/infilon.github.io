@@ -1,0 +1,319 @@
+.HeadingAndroidServices {
+    text-align: center;
+    line-height: 1.74;
+    font-size: 15px;
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    color: #696969;
+
+    h1 {
+        color: #333;
+        font-size: 32px;
+        line-height: 1.41;
+        font-weight: 700;
+
+        & span {
+            color: #21376D;
+            ;
+        }
+    }
+
+    h4 {
+        color: #333;
+        font-weight: 700;
+        line-height: 1.41;
+        font-size: 34px;
+
+        & span {
+            color: #21376D;
+            ;
+        }
+
+    }
+
+    p {
+        margin-top: 27px;
+    }
+}
+
+.AboutBox {
+    line-height: 1.74;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #696969;
+
+    .ModernNumber {
+        p {
+
+            font-size: 18px;
+            color: #333;
+            font-weight: 700;
+            line-height: 1.41;
+        }
+
+        .headingNumber {
+
+            margin-right: 3rem;
+            font-size: 12px;
+            line-height: 2em;
+            letter-spacing: 2px;
+            color: #ababab;
+            text-transform: uppercase;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: end;
+            -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+
+            & span {
+                color: #1d5280;
+                font-size: 180px;
+                line-height: .8;
+                font-weight: 900;
+                margin: 0 5px -5px -5px;
+            }
+
+
+        }
+    }
+
+    .TextAbout {
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: justify;
+
+        }
+
+        .DiscoverNowbutton a {
+            color: #21376D;
+            text-decoration: none;
+        }
+
+        .DiscoverNowbutton a:hover {
+            color: #16ADB6;
+            transition: all .7s cubic-bezier(.645, .045, .355, 1);
+        }
+    }
+}
+
+.ResourceWrapper {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    background-image: url(https://www.infilon.com/assets/images/bg/mitech-slider-cybersecurity-global-image.png);
+    background-repeat: no-repeat;
+    background-position: center right 40px;
+    text-align: center !important;
+
+    .LeftResourceBox {
+        max-width: 600px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        text-align: left;
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+            text-align: center;
+            margin: 0 auto;
+            float: none;
+        }
+
+        h1 {
+            font-size: 23px;
+            margin-bottom: 20px;
+
+            & span {
+                color: #21376D;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #696969;
+
+        }
+
+    }
+
+    .ImageFluid {
+        height: auto;
+
+
+        img {
+            height: auto;
+            vertical-align: middle;
+            border-style: none;
+            max-width: 100%;
+        }
+    }
+}
+
+.ImageFeatureContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center !important;
+
+    .LeftResourceBox {
+        max-width: 600px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        float: right;
+        height: auto;
+        max-width: 100%;
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .RightResourceBox {
+        max-width: 600px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        text-align: left;
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+            text-align: center;
+            margin: 0 auto;
+            float: none;
+        }
+
+        h1 {
+            font-size: 23px;
+            margin-bottom: 20px;
+
+            & span {
+                color: #21376D;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #696969;
+        }
+    }
+}
+
+.AboutSectionWithBgImg {
+    background-color: #1d5280;
+    background-image: url(https://www.infilon.com/assets/images/patterns/mitech-call-to-action-image-global.png);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+
+
+    .LeftResourceBox {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 1.41;
+        color: white;
+
+        & span {
+            color: #16ADB6;
+            ;
+        }
+    }
+}
+
+.SectionWorkSteps {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+
+
+    h1 {
+        color: #21376D;
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1.41;
+        padding-left: 10px;
+    }
+
+    p {
+        padding-left: 10px;
+        margin-top: 17px;
+        color: #696969;
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.InfoTechnoContactUs {
+    background-color: #eff2f6;
+    background-image: url(https://www.infilon.com/assets/images/bg/home-infotechno-contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .ContactUsWrapone {
+        .Verticleline {
+            margin: 18px;
+            height: 100%;
+            float: left;
+        }
+
+        .InfoHeading {
+            border-left: 4px solid #1d5280;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 1.4;
+
+            p {
+                margin-left: 31px;
+                color: #696969;
+
+                & span {
+                    color: #21376D;
+                }
+            }
+
+        }
+
+        .subheading {
+            margin-top: 15px;
+            font-size: 18px;
+            margin-left: 34px;
+            color: #696969;
+        }
+    }
+
+}
